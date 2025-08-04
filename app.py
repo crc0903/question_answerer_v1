@@ -5,7 +5,7 @@ from openai import OpenAI
 st.set_page_config(page_title="Ask AI", page_icon="🤖", layout="centered")
 
 # Title
-st.title("Question Answerer")
+st.title("Question Answerer (Note: Not real-time — answers may be outdated")
 
 # Initialize OpenAI client using API key from Streamlit secrets
 client = OpenAI(api_key=st.secrets["openai_api_key"])

@@ -5,7 +5,7 @@ from openai import OpenAI
 st.set_page_config(page_title="Ask AI", page_icon="🤖", layout="centered")
 
 # Title
-st.title("🤖 Ask AI (Powered by GPT-3.5-Turbo)")
+st.title("Question Answerer")
 
 # Initialize OpenAI client using API key from Streamlit secrets
 client = OpenAI(api_key=st.secrets["openai_api_key"])

@@ -1,12 +1,11 @@
 
 import streamlit as st
 import openai
+openai.api_key = st.secrets["openai_api_key"]
 
 st.set_page_config(page_title="Ask AI", page_icon="🤖", layout="centered")
 
 st.title("🤖 Ask AI (Powered by GPT-3.5-Turbo)")
-
-openai.api_key = "your-api-key-here"  # Replace with your OpenAI API key
 
 question = st.text_input("Ask a question:")
 

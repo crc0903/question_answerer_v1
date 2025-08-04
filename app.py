@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Set Streamlit page config
-st.set_page_config(page_title="Ask AI", page_icon="🤖", layout="centered")
+st.set_page_config(page_title="QA", layout="centered")
 
 # Title
 st.title("Question Answerer (Note: Not real-time — answers may be outdated)")
